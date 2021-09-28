@@ -86,7 +86,7 @@ msgstr ""
 #. module: contract
 #: model:mail.template,subject:contract.email_contract_template
 msgid "${object.company_id.name} Contract (Ref ${object.name or 'n/a'})"
-msgstr ""
+msgstr "${object.company_id.name} Pogodba (Ref ${object.name or 'n/a'})"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
@@ -103,52 +103,52 @@ msgstr ""
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Contract: </strong>"
-msgstr ""
+msgstr "<strong>Pogodba: </strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Date Start: </strong>"
-msgstr ""
+msgstr "<strong>Datum Začetka: </strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Description</strong>"
-msgstr ""
+msgstr "<strong>Opis</strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Partner:</strong>"
-msgstr ""
+msgstr "<strong>Partner:</strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Price</strong>"
-msgstr ""
+msgstr "<strong>Cena</strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Quantity</strong>"
-msgstr ""
+msgstr "<strong>Količina</strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Recurring Items</strong>"
-msgstr ""
+msgstr "<strong>Ponavljajoči Vnosi</strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Responsible: </strong>"
-msgstr ""
+msgstr "<strong>Odgovorni: </strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Total</strong>"
-msgstr ""
+msgstr "<strong>Skupaj</strong>"
 
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.report_contract_document
 msgid "<strong>Unit Price</strong>"
-msgstr ""
+msgstr "<strong>Cena Enote</strong>"
 
 #. module: contract
 #: model:ir.model,name:contract.model_account_analytic_contract
@@ -189,18 +189,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account__company_id
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract__company_id
 msgid "Company"
-msgstr ""
+msgstr "Podjetje"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:342
 #, python-format
 msgid "Compose Email"
-msgstr ""
+msgstr "Sestavi Email"
 
 #. module: contract
 #: model:ir.model,name:contract.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Stik"
 
 #. module: contract
 #: model:ir.actions.report,name:contract.report_contract
@@ -208,7 +208,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract.field_account_invoice__contract_id
 #: model:mail.template,report_name:contract.email_contract_template
 msgid "Contract"
-msgstr ""
+msgstr "Pogodba"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:138
@@ -245,7 +245,7 @@ msgstr ""
 #. module: contract
 #: model:ir.ui.menu,name:contract.menu_config_contract
 msgid "Contracts"
-msgstr ""
+msgstr "Pogodbe"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account__create_invoice_visibility
@@ -277,7 +277,7 @@ msgstr "Ustvarjeno"
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account__partner_id
 #: model_terms:ir.ui.view,arch_db:contract.account_analytic_account_sale_form
 msgid "Customer"
-msgstr ""
+msgstr "Stranka"
 
 #. module: contract
 #: model:ir.actions.act_window,name:contract.action_account_analytic_sale_overdue_all
@@ -341,13 +341,13 @@ msgstr "Opis"
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line__discount
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line__discount
 msgid "Discount (%)"
-msgstr ""
+msgstr "Popust (%)"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_contract_line.py:179
 #, python-format
 msgid "Discount should be less or equal to 100"
-msgstr ""
+msgstr "Popust naj bo majnši ali enak 100"
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_account_analytic_contract_line__discount
@@ -367,7 +367,7 @@ msgstr "Prikazni naziv"
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.view_account_analytic_account_contract_search
 msgid "Finished"
-msgstr ""
+msgstr "Končano"
 
 #. module: contract
 #: model:ir.actions.server,name:contract.account_analytic_cron_for_invoice_ir_actions_server
@@ -401,6 +401,8 @@ msgid ""
 "pricelist to the product. If not, you will be able to introduce a manual "
 "price"
 msgstr ""
+"Ko je to izbrano, se bo cena na izdelek nastavila avtomatično po cenikih izdelkov."
+"Ko ni, lahko ceno nastaviš ročno."
 
 #. module: contract
 #: model:ir.model,name:contract.model_account_invoice
@@ -431,7 +433,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract__journal_id
 #: model_terms:ir.ui.view,arch_db:contract.account_analytic_contract_view_search
 msgid "Journal"
-msgstr ""
+msgstr "Dnevnik"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract____last_update
@@ -458,19 +460,19 @@ msgstr "Zadnjič posodobljeno"
 #: model_terms:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
 #: model_terms:ir.ui.view,arch_db:contract.account_analytic_contract_view_form
 msgid "Legend (for the markers inside invoice lines description)"
-msgstr ""
+msgstr "Legenda"
 
 #. module: contract
 #: selection:account.analytic.account,recurring_rule_type:0
 #: selection:account.analytic.contract,recurring_rule_type:0
 msgid "Month(s)"
-msgstr ""
+msgstr "Mesec(i)"
 
 #. module: contract
 #: selection:account.analytic.account,recurring_rule_type:0
 #: selection:account.analytic.contract,recurring_rule_type:0
 msgid "Month(s) last day"
-msgstr ""
+msgstr "Mesec(i) zadnji dan"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract__name
@@ -515,13 +517,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract__pricelist_id
 #: model_terms:ir.ui.view,arch_db:contract.account_analytic_contract_view_search
 msgid "Pricelist"
-msgstr ""
+msgstr "Cenovna lista"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line__product_id
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Izdelek"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_res_partner__purchase_contract_count
@@ -534,7 +536,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line__quantity
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line__quantity
 msgid "Quantity"
-msgstr ""
+msgstr "Količina"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account__recurring_rule_type
@@ -553,18 +555,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account__recurring_interval
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract__recurring_interval
 msgid "Repeat Every"
-msgstr ""
+msgstr "Ponovi Vsak"
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_account_analytic_account__recurring_interval
 #: model:ir.model.fields,help:contract.field_account_analytic_contract__recurring_interval
 msgid "Repeat every (Days/Week/Month/Year)"
-msgstr ""
+msgstr "Ponovi vsak (Dan/Teden/Mesec/Leto)"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account__user_id
 msgid "Responsible"
-msgstr ""
+msgstr "Odgovorni"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_res_partner__sale_contract_count
@@ -576,13 +578,13 @@ msgstr ""
 #. module: contract
 #: model_terms:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
 msgid "Send by Email"
-msgstr ""
+msgstr "Pošlji po Emailu"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line__sequence
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Zaporedje"
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_account_analytic_contract_line__sequence
@@ -629,19 +631,19 @@ msgstr ""
 #: selection:account.analytic.contract,contract_type:0
 #: model_terms:ir.ui.view,arch_db:contract.account_analytic_account_purchase_form
 msgid "Supplier"
-msgstr ""
+msgstr "Dobavitelj"
 
 #. module: contract
 #: model:ir.actions.act_window,name:contract.action_account_analytic_purchase_overdue_all
 #: model:ir.ui.menu,name:contract.menu_action_account_analytic_purchase_overdue_all
 msgid "Supplier Contracts"
-msgstr ""
+msgstr "Pogodbe Dobaviteljev"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line__price_unit
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line__price_unit
 msgid "Unit Price"
-msgstr ""
+msgstr "Cena Enote"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line__uom_id
@@ -687,13 +689,13 @@ msgstr ""
 #: code:addons/contract/models/account_analytic_account.py:211
 #, python-format
 msgid "You must first select a Customer for Contract %s!"
-msgstr ""
+msgstr "Najprej izberi Stranko za Pogodbo %s!"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:207
 #, python-format
 msgid "You must first select a Supplier for Contract %s!"
-msgstr ""
+msgstr "Najprej izberi Dobavitelja za Pogodbo %s!"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:294
